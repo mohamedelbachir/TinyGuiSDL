@@ -104,6 +104,7 @@ public:
         thefontManager::Instance()->cleanUp();
     }
 };
+```
 
 >there is the **main** program
 
@@ -126,7 +127,8 @@ int main(int argc,char *argv[]){
 }
 ```
 
-##The ouput
+## The ouput
+
 ![result](/screenshoots/sample.jpg)
 
 feel free to commit :)
