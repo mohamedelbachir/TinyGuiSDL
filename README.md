@@ -2,8 +2,11 @@
 ## You should need to have
 first of all you need this SDL_Version :
 >[SDL2.0.16 or up](https://github.com/libsdl-org/SDL/releases/)
+
 >[SDL_ttf 2.20.1 or up](https://github.com/libsdl-org/SDL_ttf/releases)
+
 >[SDL_image 2.6.2 or up](https://github.com/libsdl-org/SDL_image/releases)
+
 ## Sample example
 >few inclusion
 ```c++
@@ -57,6 +60,7 @@ std::string MainState::stateID="MAINSTATE";
 ```
 >declaration of mainWindow 
 notice that one window can have **one** or **more** state according to your choices
+
 ```c++
 //main window to display widget
 class MyWindow:public Window{
@@ -102,6 +106,7 @@ public:
 };
 
 >there is the **main** program
+
 ```c++
 int main(int argc,char *argv[]){
     //loading a font for displaying to the button
@@ -123,4 +128,5 @@ int main(int argc,char *argv[]){
 
 ##The ouput
 ![result](/screenshoots/sample.jpg)
+
 feel free to commit :)
