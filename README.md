@@ -1,4 +1,4 @@
-# Simple SDL GUI Library for Game and Application (in delevelopment)
+# Simple SDL GUI Library for Game and Application (in development)
 ## You should need to have
 first of all you need this SDL_Version :
 >[SDL2.0.16 or up](https://github.com/libsdl-org/SDL/releases/)
