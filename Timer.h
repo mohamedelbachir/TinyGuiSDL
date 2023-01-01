@@ -1,27 +1,15 @@
 #ifndef TIMER_H_INCLUDED
 #define TIMER_H_INCLUDED
-class Timer{
+#include <SDL.h>
+class Timer
+{
 private:
-    int temps;
-    int c_time;
+    Uint32 temps;
+    bool firstTime=true;
 public:
-    Timer(){
-        c_time=0;
-        temps=SDL_GetTicks();
-    }
-    void update(){
-         c_time=SDL_GetTicks();
-    }
-    bool attendre(int seconde){
-        temps=SDL_GetTicks();
-        if(temps-c_time>seconde){
-            c_time=temps;
-            update();
-            return true;
-        }
-        //update();
-        return false;
-
-    }
+    Timer();
+    bool attendre(int seconde);
 };
+
+
 #endif // TIMER_H_INCLUDED
